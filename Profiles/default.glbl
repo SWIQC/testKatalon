@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.advantageonlineshopping.com'</initValue>
+      <name>BASEURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>true</initValue>
+      <name>SCREEN_MAXSIZE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Filename AutoIT Profile</description>
+      <initValue>'userProfile.exe'</initValue>
+      <name>LOGIN_PROFILE</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
