@@ -19,4 +19,14 @@
       <initValue>'userProfile.exe'</initValue>
       <name>LOGIN_PROFILE</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://otosurrappqc04.oto.co.id:203'</initValue>
+      <name>OTOSUR_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'E:\\KATALON\\TEST02\\testKatalon\\Images\\Side-Menu\\'</initValue>
+      <name>folderPath</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
