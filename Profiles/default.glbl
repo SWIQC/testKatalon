@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://www.advantageonlineshopping.com'</initValue>
+      <initValue>'http://otosurrappqc04.oto.co.id:203'</initValue>
       <name>BASEURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
