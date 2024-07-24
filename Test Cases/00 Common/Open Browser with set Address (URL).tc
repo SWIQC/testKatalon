@@ -5,17 +5,56 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>531e785d-6b73-476b-8979-5142e824fcc9</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>65ae6e5a-2d60-498f-a817-715018ddf96f</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/SampleDataInquiry</testDataId>
+   </testDataLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <type>SCRIPT_VARIABLE</type>
+      <value>GlobalVariable.BASEURL</value>
       <variableId>56932eeb-2a9c-46ff-aa81-c46b23b7b6e6</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <type>SCRIPT_VARIABLE</type>
+      <value>GlobalVariable.LOGIN_PROFILE</value>
       <variableId>4bb67b35-5fff-47f5-b87a-1b1d3db5e17d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>65ae6e5a-2d60-498f-a817-715018ddf96f</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Company</value>
+      <variableId>e707ff48-3597-4d30-83b8-60fed5500654</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>65ae6e5a-2d60-498f-a817-715018ddf96f</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>productType</value>
+      <variableId>554d11e6-8db2-43a2-86be-2f2f4e03f848</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>65ae6e5a-2d60-498f-a817-715018ddf96f</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>KTP</value>
+      <variableId>40b228bb-7244-43de-b297-89752a2c96b4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>65ae6e5a-2d60-498f-a817-715018ddf96f</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Name</value>
+      <variableId>75821d0e-efdf-429f-803a-1825d0b9be8e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>65ae6e5a-2d60-498f-a817-715018ddf96f</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>DOB</value>
+      <variableId>5b01de2b-2d3e-4f04-8669-f2d044cd813f</variableId>
    </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.BASEURL</defaultValue>
@@ -26,9 +65,44 @@
    </variable>
    <variable>
       <defaultValue>GlobalVariable.LOGIN_PROFILE</defaultValue>
-      <description>Filename AutoIT Profile</description>
+      <description></description>
       <id>4bb67b35-5fff-47f5-b87a-1b1d3db5e17d</id>
       <masked>false</masked>
       <name>loginProfile</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('SampleDataInquiry')</defaultValue>
+      <description></description>
+      <id>e707ff48-3597-4d30-83b8-60fed5500654</id>
+      <masked>false</masked>
+      <name>companyName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('SampleDataInquiry')</defaultValue>
+      <description></description>
+      <id>554d11e6-8db2-43a2-86be-2f2f4e03f848</id>
+      <masked>false</masked>
+      <name>productType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('SampleDataInquiry')</defaultValue>
+      <description></description>
+      <id>40b228bb-7244-43de-b297-89752a2c96b4</id>
+      <masked>false</masked>
+      <name>ktp</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('SampleDataInquiry')</defaultValue>
+      <description></description>
+      <id>75821d0e-efdf-429f-803a-1825d0b9be8e</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('SampleDataInquiry')</defaultValue>
+      <description></description>
+      <id>5b01de2b-2d3e-4f04-8669-f2d044cd813f</id>
+      <masked>false</masked>
+      <name>birthDate</name>
    </variable>
 </TestCaseEntity>
